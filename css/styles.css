@@ -1,0 +1,14 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #DAA520;
+    background-image: url('ruta_de_tu_imagen.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    transition: color 0.3s, background-color 0.3s;
+}
+...
+/* Aquí incluye el resto de las reglas CSS del archivo original */

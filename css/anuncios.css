@@ -1,0 +1,53 @@
+/* Estilos principales para la sección de anuncios */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.anuncios {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.anuncios-slider {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.anuncios-slider img {
+    width: 100%;
+    height: auto;
+    display: none;
+    border-radius: 10px;
+    transition: opacity 0.5s;
+}
+
+.anuncios-slider img.active {
+    display: block;
+    opacity: 1;
+}
+
+.menu-anuncios {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.descripcion-anuncio {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
+}
